@@ -58,7 +58,9 @@ These are instead disabled after reboot:
 "Set the persistence mode for the target GPUs. See the (GPU ATTRIBUTES) section for a description of persistence mode. Requires root. Will impact all GPUs unless a single GPU is specified using the -i argument. The effect of this operation is immediate. However, it does not per- sist across reboots. After each reboot persistence mode will default to "Disabled". Available on Linux only."
 	
 - sudo nvidia-smi -c 0/DEFAULT
+
 "Set the compute mode for the target GPUs. See the (GPU ATTRIBUTES) section for a description of compute mode. Requires root. Will impact all GPUs unless a single GPU is specified using the -i argument. The effect of this operation is immediate. However, it does not persist across reboots. After each reboot compute mode will reset to "DEFAULT""
 	
 - sudo nvidia-smi -am 1/ENABLED
+
 "Accounting Mode A flag that indicates whether accounting mode is enabled for the GPU Value is either When accounting is enabled statistics are calculated  for each compute process running on the GPU. Statistics can be queried during the lifetime or after termination of the process. The execution  time of process is reported as 0 while the process is in running state and updated to actual execution time after the process has terminated."
