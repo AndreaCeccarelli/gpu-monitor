@@ -4,6 +4,14 @@
 (SIZE OF DATASET IS APPROX 250 GB)
 
 
+Our settings to reproduce results of our work. After acceptance of the work, we will publish authors name and link to google drive.
+
+Objective is show that we can use GPU parameters to detect adversarial attacks on images.
+We execute 14 attacks from the IBM ART Toolbox against mnist, cifar, and stl10 datasets, and on 4 algorithms running per dataset.
+The code here allows i) training and creating the datasets with the adversarial images; ii) executing the attacks on the target images; iii) collecting the dataset we use in the paper.
+
+Step i) is very long and generates lots of data --> easiest is to download from google drive.
+
 # Requirements	
 Requires:	
 	Linux (tested on Ubuntu 18.04)
