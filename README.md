@@ -1,7 +1,7 @@
 # gpu-monitor
 
 (NOTE: FOR DOUBLE BLIND, LINK TO GOOGLE DRIVE IS NOT ACCESSIBLE. IF YOU NEED ACCESS, ASK THE CHAIR)
-(SIZE OF DATASET IS APPROX 250 GB)
+(SIZE OF DATASET IS APPROX 150 GB)
 
 
 Our settings to reproduce results of our work. After acceptance of the work, we will publish authors name and link to google drive.
