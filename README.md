@@ -56,7 +56,7 @@ These will require reboot:
 Requires root. Will impact all GPUs   unless a single GPU is specified using the -i argument. 
 This setting  takes effect after the next reboot and is persistent."
 	
-- sudo nvidia-smi -gom 0/ALL_ON
+- sudo nvidia-smi --gom=0/ALL_ON
 
 "GPU Operation Mode GOM allows to reduce power usage and optimize GPU throughput by disabling GPU features.  Each GOM is designed to meet specific user needs.  In ""All On"" everything is enabled and running at full speed. GOM changes take effect after reboot"
 	
