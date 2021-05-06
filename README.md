@@ -3,7 +3,7 @@ Deep Neural Networks (DNNs) are the preferred choice for image-based machine lea
 
 # Reference
 
-A. Ceccarelli, T. Zoppi, Detect Adversarial Attacks against Deep Neural Networks with GPU Monitoring, submitted.
+Andrea Ceccarelli, Tommaso Zoppi, Detect Adversarial Attacks against Deep Neural Networks with GPU Monitoring, submitted.
 
 # Dataset
 
