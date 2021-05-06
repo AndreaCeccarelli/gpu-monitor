@@ -1,3 +1,0 @@
-Evaluation code for embedded networks
-Just set in the python file the proper path to the input dataset (tabular data with GPU nvidia-smi logs)
-and to the output folder 
