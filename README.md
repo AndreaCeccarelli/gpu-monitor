@@ -29,7 +29,9 @@ The code here allows i) training and creating the datasets with the adversarial 
 Step i) is very long and generates lots of data --> easiest is to download from google drive.
 
 # Installation	
-First, download folders fullattacks, savedmodels and synteticattacks
+Download this repo from github (git clone https://github.com/AndreaCeccarelli/gpu-monitor)
+
+Download folders fullattacks, savedmodels and synteticattacks
 from https://drive.google.com/drive/folders/1a1RCcrJ94oIpqKk_HvRpUAIM3hd13SJu?usp=sharing
 and place in the respective directory (you can see them inside the gpu-monitor folder of this github).
 
@@ -47,7 +49,7 @@ Suggested steps:
 conda activate art2	
 python pytorch_ART.py --help	
 	
-Then, use the help configure your settings, e.g., the following should work, if you set the right paths:
+Then, use the help configure your settings, e.g., the following should work, just set the right path to the root folder with all the files downloaded from github:
 
 python pytorch_ART.py --attacks_library ./fullattacks/ --home /home/andrea/gpu-monitor/ --full_iterations 1	
 
@@ -64,7 +66,8 @@ You should change the following paths in target_model.py:
 FILENAME: the name of the "COMPLETE_DATASET.CSV" file you wish to analyze
 LOGFILE: where results should be stored
 DIR: path to FILENAME.
-Then, just run ./target_model.sh
+
+Then, just run ./target_model.sh . Results will be stored in the LOGFILE.
 
 # Tips (may be dangerous -- be cautious)	
 Whenever you experience crashes, we recommend to run a "killall nvidia-smi", to assure that logging is no longer running.	
