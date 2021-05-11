@@ -103,29 +103,4 @@ These are instead disabled after reboot:
 Results based on neural networks with entity embedding are in the paper. However, we report results of runs with different algorithms. This shows why we decided to use neural networks amongst the many alternatives available.
 
 
-Classifier	Adversarial Image Set	Embedded Networks	RandomForest	kNN	Decision Tree	ADABoost	SVM	NaiveBayes	LDA	MLP	XGBoost	GradientBoosting
-CIFAR-1	OAIS	0,57	0,55	0,53	0,56	0,58	0,55	0,54	0,52	0,54	0,54	0,57
-CIFAR-1	SAIS	0,57	0,52	0,52	0,52	0,52	0,51	0,50	0,52	0,52	0,53	0,53
-CIFAR-2	OAIS	0,65	0,60	0,59	0,56	0,57	0,52	0,52	0,51	0,63	0,59	0,59
-CIFAR-2	SAIS	0,65	0,67	0,58	0,66	0,71	0,51	0,51	0,51	0,51	0,67	0,69
-CIFAR-3	OAIS	0,63	0,52	0,52	0,53	0,54	0,52	0,52	0,52	0,52	0,53	0,57
-CIFAR-3	SAIS	0,63	0,63	0,63	0,63	0,64	0,51	0,51	0,51	0,51	0,63	0,64
-CIFAR-4	OAIS	0,62	0,61	0,60	0,61	0,62	0,51	0,51	0,51	0,51	0,60	0,61
-CIFAR-4	SAIS	0,61	0,53	0,54	0,52	0,52	0,52	0,52	0,52	0,52	0,53	0,53
-STL-1	OAIS	0,63	0,53	0,55	0,52	0,55	0,51	0,51	0,65	0,52	0,52	0,54
-STL-1	SAIS	0,61	0,52	0,54	0,51	0,57	0,64	0,52	0,51	0,54	0,62	0,63
-STL-2	OAIS	0,58	0,51	0,50	0,54	0,57	0,50	0,50	0,50	0,50	0,51	0,58
-STL-2	SAIS	0,58	0,55	0,55	0,54	0,55	0,50	0,51	0,51	0,51	0,55	0,56
-STL-3	OAIS	0,59	0,54	0,55	0,54	0,52	0,54	0,50	0,50	0,55	0,58	0,57
-STL-3	SAIS	0,59	0,56	0,56	0,56	0,57	0,51	0,50	0,51	0,51	0,57	0,57
-STL-4	OAIS	0,60	0,51	0,52	0,54	0,54	0,51	0,50	0,50	0,50	0,52	0,54
-STL-4	SAIS	0,60	0,55	0,58	0,56	0,59	0,52	0,51	0,51	0,50	0,53	0,59
-MNIST-1	OAIS	0,71	0,60	0,60	0,63	0,62	0,50	0,50	0,50	0,50	0,59	0,63
-MNIST-1	SAIS	0,75	0,59	0,55	0,59	0,58	0,50	0,51	0,59	0,55	0,58	0,59
-MNIST-2	OAIS	0,76	0,57	0,55	0,57	0,58	0,50	0,50	0,55	0,55	0,57	0,58
-MNIST-2	SAIS	0,72	0,62	0,62	0,61	0,61	0,51	0,50	0,55	0,50	0,61	0,62
-MNIST-3	OAIS	0,79	0,55	0,53	0,55	0,55	0,50	0,52	0,51	0,52	0,55	0,55
-MNIST-3	SAIS	0,81	0,69	0,69	0,70	0,72	0,70	0,52	0,53	0,61	0,63	0,65
-MNIST-4	OAIS	0,77	0,56	0,56	0,57	0,55	0,50	0,52	0,51	0,54	0,56	0,56
-MNIST-4	SAIS	0,78	0,59	0,59	0,59	0,52	0,56	0,51	0,52	0,56	0,55	0,55
-![image](https://user-images.githubusercontent.com/20238192/117864377-034a3c00-b295-11eb-8587-bd763fb5faf4.png)
+[image](https://user-images.githubusercontent.com/20238192/117864377-034a3c00-b295-11eb-8587-bd763fb5faf4.png)
