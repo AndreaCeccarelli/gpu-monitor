@@ -54,7 +54,18 @@ python pytorch_ART.py --attacks_library ./fullattacks/ --home /home/andrea/gpu-m
 (it will take approx. 1-2 hours)	
 
 This will create a set of files under ./dataset . You should look at the *_COMPLETE_DATASET.csv_ files.	
-	
+
+These are the completed files, after all the attacks have been executed.
+
+Now you can test your anomaly detection solution on the CSV file.
+
+You can go in the folder ./evaluations and open target_model.py.
+You should change the following paths in target_model.py: 
+FILENAME: the name of the "COMPLETE_DATASET.CSV" file you wish to analyze
+LOGFILE: where results should be stored
+DIR: path to FILENAME.
+Then, just run ./target_model.sh
+
 # Tips (may be dangerous -- be cautious)	
 Whenever you experience crashes, we recommend to run a "killall nvidia-smi", to assure that logging is no longer running.	
 	
