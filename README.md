@@ -103,4 +103,4 @@ These are instead disabled after reboot:
 Results based on neural networks with entity embedding are in the paper. However, we report results of runs with different algorithms. This shows why we decided to use neural networks amongst the many alternatives available.
 
 
-[image](https://user-images.githubusercontent.com/20238192/117864377-034a3c00-b295-11eb-8587-bd763fb5faf4.png)
+![image](https://user-images.githubusercontent.com/20238192/117864377-034a3c00-b295-11eb-8587-bd763fb5faf4.png)
