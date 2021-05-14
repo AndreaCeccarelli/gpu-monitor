@@ -10,7 +10,8 @@ Andrea Ceccarelli, Tommaso Zoppi, Detect Adversarial Attacks against Deep Neural
 (NOTE: FOR DOUBLE BLIND, LINK TO GOOGLE DRIVE IS NOT ACCESSIBLE. IF YOU NEED ACCESS, ASK THE CHAIR)
 (SIZE OF DATASET IS APPROX 140 GB)
 
-https://drive.google.com/drive/folders/15QIz6g2Meun_t_nbwoPf0t5v_PdzEaR5?usp=sharing
+https://drive.google.com/drive/folders/
+15QIz6g2Meun_t_nbwoPf0t5v_PdzEaR5?usp=sharing
 
 # Requirements	
 Requires:	
