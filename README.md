@@ -27,7 +27,7 @@ The code here allows i) training and creating the datasets with the adversarial 
 
 Step i) is very long and generates lots of data --> easiest is to download from google drive.
 
-# Installation	
+## Installation	
 Download this repo from github (git clone https://github.com/AndreaCeccarelli/gpu-monitor)
 
 Download folders OAIS-images, SAIS-images and savedmodels 
@@ -44,7 +44,7 @@ Install dependencies through conda package (you can use file gpu-monitor.yml to 
 	
 Check that GPU is enabled to measure ECC. If not, gpu-monitor.sh may fail. Essentially, what is failing is nvidia-smi, that cannot log the parameters reported in gpu-monitor.sh. In this case, you need to manually remove the problematic parameters from gpu-monitor.sh. Also, remove the same parameters from elaboratedata.py (in the addheader function).
 	
-# How to run	
+## How to run	
 If  you just followed the step above, and have the folders fullattacks, savedmodels and synteticattacks with the content from  the google drive, you should only need to set the "--home" flag to make it work. Then you can work on the input parameters, depending on your needs.	
 
 Suggested steps:
