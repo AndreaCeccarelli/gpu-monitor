@@ -3,7 +3,7 @@ Deep Neural Networks (DNNs) are the preferred choice for image-based machine lea
 
 # Reference
 
-Andrea Ceccarelli, Tommaso Zoppi, Detect Adversarial Attacks against Deep Neural Networks with GPU Monitoring, submitted (under review).
+Andrea Ceccarelli, Tommaso Zoppi, Detect Adversarial Attacks against Deep Neural Networks with GPU Monitoring, in press at IEEE ACCESS.
 
 # Dataset
 
@@ -30,9 +30,13 @@ Step i) is very long and generates lots of data --> easiest is to download from 
 # Installation	
 Download this repo from github (git clone https://github.com/AndreaCeccarelli/gpu-monitor)
 
-Download folders fullattacks, savedmodels and synteticattacks
+Download folders OAIS-images, SAIS-images and savedmodels 
 from https://drive.google.com/drive/folders/1a1RCcrJ94oIpqKk_HvRpUAIM3hd13SJu?usp=sharing
 and place in the respective directory (you can see them inside the gpu-monitor folder of this github).
+
+Rename folder OAIS-images in "fullattacks"
+
+Rename folder SAIS-images in "synteticattacks"
 
 Install adversarial-robustness-toolbox 1.5.1 from instructions on website.	
 
@@ -41,7 +45,7 @@ Install dependencies through conda package (you can use file gpu-monitor.yml to 
 Check that GPU is enabled to measure ECC. If not, gpu-monitor.sh may fail. Essentially, what is failing is nvidia-smi, that cannot log the parameters reported in gpu-monitor.sh. In this case, you need to manually remove the problematic parameters from gpu-monitor.sh. Also, remove the same parameters from elaboratedata.py (in the addheader function).
 	
 # How to run	
-If  you just downloaded the folders fullattacks, savedmodels and synteticattacks from the google drive, you should only need to set the "--home" flag to make it work. Then you can work on the input parameters, depending on your needs.	
+If  you just followed the step above, and have the folders fullattacks, savedmodels and synteticattacks with the content from  the google drive, you should only need to set the "--home" flag to make it work. Then you can work on the input parameters, depending on your needs.	
 
 Suggested steps:
 
