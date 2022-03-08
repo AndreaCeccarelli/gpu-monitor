@@ -49,7 +49,8 @@ If  you just followed the step above, and have the folders fullattacks, savedmod
 
 Suggested steps:
 
-conda activate art2	
+conda activate art2
+
 python pytorch_ART.py --help	
 	
 Then, use the help configure your settings, e.g., the following should work, just set the right path to the root folder with all the files downloaded from github:
